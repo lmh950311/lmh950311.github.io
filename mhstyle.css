@@ -1,0 +1,19 @@
+/* mhstyle.css */
+
+@import url('https://fonts.googleapis.com/css?family=Mina');
+
+p {
+    font-family: 'Mina', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Rammetto+One');
+
+h1 {
+    font-family: 'Rammetto One', cursive;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+h2 {
+    font-family: 'Oswald', sans-serif;
+}
