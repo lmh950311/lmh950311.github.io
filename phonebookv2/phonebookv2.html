@@ -1,0 +1,51 @@
+<<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Phonebook</title>
+    <link rel="stylesheet" type="text/css" href="phonebookv2.css" />
+</head>
+<body>
+    <div id="main">
+<h1>
+    Phone Book
+</h1>
+
+
+    Last Name<span><input id="ln" type="text" 
+      ><br/></span>
+    First Name<span><input id="fn" type="text" 
+      /><br/></span>
+    Phone Number<span><input id="pn" type="text" 
+     /><br/></span>
+<button id="savebtn" >Save</button>
+
+
+
+
+
+<div>
+    &nbsp;<input id="searchTxt" type="text" />
+    <input id="searchBtn" type="button" value="Search"/>
+</div>
+
+
+<hr>
+<table>
+  <thead>
+    <th><input id="lnbtn" type="button" value="▼ Last Name" onclick="lnSort()" /></th>
+    <th><input id="fnbtn" type="button" value="▼ First Name" onclick="fnSort()" /></th>
+    <th colspan="2"><input id="pnbtn" type="button" value="▼ Phone Number" onclick="pnSort()" /></th>
+    
+  </thead>
+  <tbody id="my-tbody"></tbody>
+</table>
+</div>
+<script src="phonebookv2.js">
+
+</script>
+
+</body>
+</html>
