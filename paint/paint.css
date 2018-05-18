@@ -1,0 +1,21 @@
+body{
+    margin:20px;
+   }
+   canvas{
+    cursor:crosshair;
+    border:solid 2px #000;
+    margin:15px 0 0 0;
+     -webkit-box-shadow:1px 1px 20px #ccc;
+     -moz-box-shadow:1px 1px 20px #ccc;
+    box-shadow:1px 1px 20px #ccc;
+   }
+   input {
+    border:1px solid #000;
+   }
+
+
+   .colorBtn{
+    border-radius: 60%;
+}
+  
+  
